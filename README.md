@@ -1,4 +1,4 @@
-<img src="https://avatars.githubusercontent.com/u/125908595?s=100&v=4" />
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <img src="https://avatars.githubusercontent.com/u/125908595?s=100&v=4" />
 
 
 # Git Mine - Server
