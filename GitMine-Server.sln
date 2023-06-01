@@ -3,9 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{A30B61C8-52EA-4D57-8B9C-B016F01B9F85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DCEF5625-76FE-4ED4-A5C1-2CBDC9A64CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitMine.WebApp", "src\Frontend\GitMine.WebApp\GitMine.WebApp.csproj", "{412F1C33-A441-4401-80D2-1F0AD89CD40A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{412F1C33-A441-4401-80D2-1F0AD89CD40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412F1C33-A441-4401-80D2-1F0AD89CD40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412F1C33-A441-4401-80D2-1F0AD89CD40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412F1C33-A441-4401-80D2-1F0AD89CD40A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{412F1C33-A441-4401-80D2-1F0AD89CD40A} = {A30B61C8-52EA-4D57-8B9C-B016F01B9F85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18FD2A2A-1126-4062-A8BA-03E06C638391}
