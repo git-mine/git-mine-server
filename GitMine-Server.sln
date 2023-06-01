@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DCEF5625-7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitMine.WebApp", "src\Frontend\GitMine.WebApp\GitMine.WebApp.csproj", "{412F1C33-A441-4401-80D2-1F0AD89CD40A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitMine.GitInterface", "src\Core\GitMine.GitInterface\GitMine.GitInterface.csproj", "{DA8BA51E-7ED3-4988-86ED-A29F124C054D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{412F1C33-A441-4401-80D2-1F0AD89CD40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{412F1C33-A441-4401-80D2-1F0AD89CD40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{412F1C33-A441-4401-80D2-1F0AD89CD40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8BA51E-7ED3-4988-86ED-A29F124C054D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8BA51E-7ED3-4988-86ED-A29F124C054D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8BA51E-7ED3-4988-86ED-A29F124C054D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8BA51E-7ED3-4988-86ED-A29F124C054D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{412F1C33-A441-4401-80D2-1F0AD89CD40A} = {A30B61C8-52EA-4D57-8B9C-B016F01B9F85}
+		{DA8BA51E-7ED3-4988-86ED-A29F124C054D} = {DCEF5625-76FE-4ED4-A5C1-2CBDC9A64CF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18FD2A2A-1126-4062-A8BA-03E06C638391}
