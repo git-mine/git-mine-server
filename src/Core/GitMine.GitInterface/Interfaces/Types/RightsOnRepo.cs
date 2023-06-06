@@ -1,6 +1,6 @@
 ﻿namespace GitMine.GitInterface.Interfaces.Types
 {
-    public enum RepoUserType
+    public enum RightsOnRepo
     {
         Owner,
         Contributor,
