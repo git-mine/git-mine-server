@@ -48,7 +48,7 @@ namespace GitMine.GitInterface.Internal.Helpers
 
             if (File.Exists(Filename) == false)
             {
-                _logger?.Info($"Cannot load INI file \"{Filename}\"");
+                _logger.Info($"Cannot load INI file \"{Filename}\"");
                 return;
             }
 
@@ -80,7 +80,7 @@ namespace GitMine.GitInterface.Internal.Helpers
                                 }
                                 else
                                 {
-                                    _logger?
+                                    _logger
                                         .Warning(
                                             $"Skipping ill-formed section " +
                                             $"\"{trimmedLine}\" in " +
@@ -112,7 +112,7 @@ namespace GitMine.GitInterface.Internal.Helpers
         /// </summary>
         public void Clear()
         {
-            _logger?.Info($"Clearing configuration from file \"{Filename}\"");
+            _logger.Info($"Clearing configuration from file \"{Filename}\"");
             _config.Clear();
         }
 
@@ -121,7 +121,7 @@ namespace GitMine.GitInterface.Internal.Helpers
         /// </summary>
         public void SaveFile()
         {
-            _logger?.Info($"Writing configuration to file \"{Filename}\"");
+            _logger.Info($"Writing configuration to file \"{Filename}\"");
 
             try
             {
@@ -327,7 +327,7 @@ namespace GitMine.GitInterface.Internal.Helpers
             }
             else
             {
-                _logger?.Warning($"Invalid key \"{key}\" for setting \"{value}\"");
+                _logger.Warning($"Invalid key \"{key}\" for setting \"{value}\"");
             }
         }
         /// <summary>
@@ -345,7 +345,7 @@ namespace GitMine.GitInterface.Internal.Helpers
             }
             else
             {
-                _logger?.Warning($"Invalid key \"{key}\" for setting integer {value}");
+                _logger.Warning($"Invalid key \"{key}\" for setting integer {value}");
             }
         }
         /// <summary>
@@ -363,7 +363,7 @@ namespace GitMine.GitInterface.Internal.Helpers
             }
             else
             {
-                _logger?.Warning($"Invalid key \"{key}\" for setting float {value}");
+                _logger.Warning($"Invalid key \"{key}\" for setting float {value}");
             }
         }
         /// <summary>
@@ -381,7 +381,7 @@ namespace GitMine.GitInterface.Internal.Helpers
             }
             else
             {
-                _logger?.Warning($"Invalid key \"{key}\" for setting double {value}");
+                _logger.Warning($"Invalid key \"{key}\" for setting double {value}");
             }
         }
     }
