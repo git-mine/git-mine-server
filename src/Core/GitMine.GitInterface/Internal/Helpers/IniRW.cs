@@ -23,14 +23,14 @@ namespace GitMine.GitInterface.Internal.Helpers
         /// <summary>
         /// Interface to output logging messages.
         /// </summary>
-        private ILogger? _logger;
+        private ILogger _logger;
 
         /// <summary>
         /// Initializes the object for reading and writing an INI file.
         /// </summary>
         /// <param name="filename">Name of the file being read / written.</param>
         /// <param name="logger">The logger interface.</param>
-        public IniRW(string filename, ILogger? logger = null)
+        public IniRW(string filename, ILogger logger)
         {
             Filename = filename;
             _config = new();
