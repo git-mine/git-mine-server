@@ -1,6 +1,6 @@
 ﻿namespace GitMine.GitInterface.Internal.Helpers
 {
-    internal class IniReaderWriter
+    internal class IniRW
     {
     }
 }
