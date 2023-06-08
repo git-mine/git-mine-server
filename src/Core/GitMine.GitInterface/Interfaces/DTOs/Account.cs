@@ -4,18 +4,18 @@ namespace GitMine.GitInterface.Interfaces.DTOs
 {
     public class Account
     {
-        public string AccountId { get; }
-        public string AccountName { get; }
-        public AccountType AccountType { get; }
+        public string Id { get; }
+        public string Name { get; }
+        public AccountType Type { get; }
 
         public Account(
             string id,
             string name,
             AccountType accountType)
         {
-            AccountId = id;
-            AccountName = name;
-            AccountType = accountType;
+            Id = id;
+            Name = name;
+            Type = accountType;
         }
     }
 }
