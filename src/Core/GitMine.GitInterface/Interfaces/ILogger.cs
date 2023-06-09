@@ -10,19 +10,19 @@ namespace GitMine.GitInterface.Interfaces
         /// <summary>
         /// Writes <c cref="LogLevel.Information">Information</c>-level messages to output log.
         /// </summary>
-        /// <param name="message">Log messages.</param>
-        void Info(params string[] message);
+        /// <param name="messages">Log messages.</param>
+        void Info(params string[] messages);
 
         /// <summary>
         /// Writes <c cref="LogLevel.Warning">Warning</c>-level messages to output log.
         /// </summary>
-        /// <param name="message">Log messages.</param>
-        void Warning(params string[] message);
+        /// <param name="messages">Log messages.</param>
+        void Warning(params string[] messages);
 
         /// <summary>
         /// Writes <c cref="LogLevel.Error">Error</c>-level messages to output log.
         /// </summary>
-        /// <param name="message">Log messages.</param>
+        /// <param name="messages">Log messages.</param>
         void Error(params string[] messages);
 
         /// <summary>
