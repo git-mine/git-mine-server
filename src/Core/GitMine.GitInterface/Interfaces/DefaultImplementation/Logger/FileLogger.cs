@@ -6,7 +6,7 @@ namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
 {
     /// <summary>
     /// Class <c>FileLogger</c> implements <c>ILogger</c> interface, and dumps
-    /// log messages into a file.
+    /// log messages into specified file.
     /// </summary>
     public class FileLogger : ILogger
     {
