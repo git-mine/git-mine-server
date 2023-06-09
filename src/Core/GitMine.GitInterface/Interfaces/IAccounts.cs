@@ -1,6 +1,6 @@
 ﻿namespace GitMine.GitInterface.Interfaces
 {
-    public interface IRepoUsers
+    public interface IAccounts
     {
     }
 }
