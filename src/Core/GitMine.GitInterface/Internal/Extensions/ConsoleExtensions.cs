@@ -1,6 +1,6 @@
 ﻿namespace GitMine.GitInterface.Internal.Extensions
 {
-    internal static class ConsoleExtension
+    internal static class ConsoleExtensions
     {
     }
 }
