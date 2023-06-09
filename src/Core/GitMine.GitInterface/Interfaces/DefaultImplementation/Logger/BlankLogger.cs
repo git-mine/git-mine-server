@@ -6,7 +6,7 @@ namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
     /// Class <c>BlankLogger</c> implements <c>ILogger</c> interface, though does nothing
     /// with log messages. Use it to discard all the messages.
     /// </summary>
-    public class BlankLogger : ILogger
+    public class BlankLogger : ILogger, IDisposable
     {
         public void Info(params string[] messages)
         {
@@ -24,5 +24,8 @@ namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
         {
         }
 
+        public void Dispose()
+        {
+        }
     }
 }
