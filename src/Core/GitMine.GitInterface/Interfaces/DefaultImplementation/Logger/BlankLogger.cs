@@ -4,11 +4,15 @@ namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
 {
     public class BlankLogger : ILogger
     {
-        public void Error(params string[] messages)
+        public void Info(params string[] messages)
         {
         }
 
-        public void Info(params string[] messages)
+        public void Warning(params string[] messages)
+        {
+        }
+
+        public void Error(params string[] messages)
         {
         }
 
@@ -16,8 +20,5 @@ namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
         {
         }
 
-        public void Warning(params string[] messages)
-        {
-        }
     }
 }
