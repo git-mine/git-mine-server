@@ -5,7 +5,7 @@ namespace GitMine.GitInterface.Interfaces
     /// <summary>
     /// Interface for outputting log messages.
     /// </summary>
-    public interface ILogger
+    public interface ILogger : IDisposable
     {
         /// <summary>
         /// Writes <c cref="LogLevel.Information">Information</c>-level messages to output log.
