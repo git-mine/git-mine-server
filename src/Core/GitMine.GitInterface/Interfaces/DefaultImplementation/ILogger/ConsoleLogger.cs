@@ -1,13 +1,13 @@
 ﻿using GitMine.GitInterface.Interfaces.Types;
 using GitMine.GitInterface.Internal.Extensions;
 
-namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
+namespace GitMine.GitInterface.Interfaces.DefaultImplementation.ILogger
 {
     /// <summary>
     /// Class <c>ConsoleLogger</c> implements <c>ILogger</c> interface to write
     /// log messages on standard console.
     /// </summary>
-    public class ConsoleLogger : ILogger
+    public class ConsoleLogger : Interfaces.ILogger
     {
         private readonly LogLevel logLevel;
 

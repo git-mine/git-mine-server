@@ -1,17 +1,17 @@
 ﻿using GitMine.GitInterface.Interfaces.Types;
 
-namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
+namespace GitMine.GitInterface.Interfaces.DefaultImplementation.ILogger
 {
     /// <summary>
     /// Class <c>SplitLogger</c> implements <c>ILogger</c> interface, and
     /// provides mechanism of splitting log messages into multiple implementations
     /// of <c>ILogger</c> interface.
     /// </summary>
-    public class SplitLogger : ILogger
+    public class SplitLogger : Interfaces.ILogger
     {
-        private readonly ILogger firstLogger;
-        private readonly ILogger secondLogger;
-        private readonly ILogger[]? moreLoggers;
+        private readonly Interfaces.ILogger firstLogger;
+        private readonly Interfaces.ILogger secondLogger;
+        private readonly Interfaces.ILogger[]? moreLoggers;
 
         /// <summary>
         /// Initializes class <c>SplitLogger</c> for splitting log messages
@@ -21,7 +21,10 @@ namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
         /// <param name="secondLogger">Required second <c>ILogger</c> interface implementation.</param>
         /// <param name="moreLoggers"><c>ILogger</c> interface implementations.</param>
         /// <exception cref="ArgumentNullException"></exception>
-        public SplitLogger(ILogger firstLogger, ILogger secondLogger, params ILogger[] moreLoggers)
+        public SplitLogger(
+            Interfaces.ILogger firstLogger,
+            Interfaces.ILogger secondLogger,
+            params Interfaces.ILogger[] moreLoggers)
         {
             this.firstLogger = firstLogger ?? throw new ArgumentNullException(nameof(firstLogger));
             this.secondLogger = secondLogger ?? throw new ArgumentNullException(nameof(secondLogger));

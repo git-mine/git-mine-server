@@ -2,13 +2,13 @@
 using GitMine.GitInterface.Internal.Extensions;
 using GitMine.GitInterface.Internal.Settings;
 
-namespace GitMine.GitInterface.Interfaces.DefaultImplementation.Logger
+namespace GitMine.GitInterface.Interfaces.DefaultImplementation.ILogger
 {
     /// <summary>
     /// Class <c>FileLogger</c> implements <c>ILogger</c> interface, and dumps
     /// log messages into specified file.
     /// </summary>
-    public class FileLogger : ILogger
+    public class FileLogger : Interfaces.ILogger
     {
         private readonly LogLevel _minLogLevel;
         private readonly bool _enableTimestamp;
