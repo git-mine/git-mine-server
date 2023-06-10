@@ -14,6 +14,11 @@ namespace GitMine.GitInterface.Interfaces
         /// <returns>TRUE => Account by given ID exists. FALSE => Account doesn't exist.</returns>
         bool AccountIdExists(string accountId);
 
+        /// <summary>
+        /// Gets Account details against the given ID.
+        /// </summary>
+        /// <param name="accountId">Specific account ID.</param>
+        /// <returns><c>Account</c> object against given ID.</returns>
         Account GetAccountById(string accountId);
 
         void CreateAccount(Account account, string passwordHash);
