@@ -42,11 +42,10 @@ namespace GitMine.GitInterface.Interfaces
         Account CreateAccount(Account account, string passwordHash);
         
         /// <summary>
-        /// Updates an account's details against given ID.
+        /// Updates an account's details against the unchangeable ID.
         /// </summary>
-        /// <param name="accountId">ID for the account that needs to be updated.</param>
-        /// <param name="account">Updated details.</param>
-        void UpdateAccount(string accountId, Account account);
+        /// <param name="account">Updated details with already assigned unchangeable ID.</param>
+        void UpdateAccount(Account account);
         /// <summary>
         /// Updates an account's password.
         /// </summary>
