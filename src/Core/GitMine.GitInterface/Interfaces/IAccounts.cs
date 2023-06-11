@@ -21,6 +21,11 @@ namespace GitMine.GitInterface.Interfaces
         /// <returns><c>Account</c> object against given ID.</returns>
         Account GetAccountById(string accountId);
 
+        /// <summary>
+        /// Creates an account and sets its password hash as given.
+        /// </summary>
+        /// <param name="account">Account details object.</param>
+        /// <param name="passwordHash">Password hash.</param>
         void CreateAccount(Account account, string passwordHash);
         
         void UpdateAccount(Account account);
