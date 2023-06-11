@@ -34,11 +34,12 @@ namespace GitMine.GitInterface.Interfaces
         Account GetAccountByUniqueName(string uniqueName);
 
         /// <summary>
-        /// Creates an account and sets its password hash as given.
+        /// Creates an account, assigns an ID and sets its password hash as given.
         /// </summary>
         /// <param name="account">Account details object.</param>
         /// <param name="passwordHash">Password hash.</param>
-        void CreateAccount(Account account, string passwordHash);
+        /// <returns><c>Account</c> object with assigned ID.</returns>
+        Account CreateAccount(Account account, string passwordHash);
         
         /// <summary>
         /// Updates an account's details against given ID.
