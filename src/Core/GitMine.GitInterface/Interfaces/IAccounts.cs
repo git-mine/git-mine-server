@@ -21,11 +21,17 @@ namespace GitMine.GitInterface.Interfaces
         bool AccountUniqueNameExists(string uniqueName);
 
         /// <summary>
-        /// Gets Account details against the given ID.
+        /// Gets account details against the given ID.
         /// </summary>
         /// <param name="accountId">Specific account ID.</param>
-        /// <returns><c>Account</c> object against given ID.</returns>
+        /// <returns><c>Account</c> object against the given ID.</returns>
         Account GetAccountById(string accountId);
+        /// <summary>
+        /// Gets account details against the given Unique Name.
+        /// </summary>
+        /// <param name="uniqueName">Specific account's Unique Name.</param>
+        /// <returns><c>Account</c> object against the given Unique Name.</returns>
+        Account GetAccountByUniqueName(string uniqueName);
 
         /// <summary>
         /// Creates an account and sets its password hash as given.
