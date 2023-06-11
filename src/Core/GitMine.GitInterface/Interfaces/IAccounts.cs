@@ -13,6 +13,12 @@ namespace GitMine.GitInterface.Interfaces
         /// <param name="accountId">An account's ID.</param>
         /// <returns>TRUE => Account by given ID exists. FALSE => Account doesn't exist.</returns>
         bool AccountIdExists(string accountId);
+        /// <summary>
+        /// Checks if an account exists against the given Unique Name or not.
+        /// </summary>
+        /// <param name="uniqueName">An account's Unique Name.</param>
+        /// <returns>TRUE => Account exists. FALSE => Account doesn't exist.</returns>
+        bool AccountUniqueNameExists(string uniqueName);
 
         /// <summary>
         /// Gets Account details against the given ID.
