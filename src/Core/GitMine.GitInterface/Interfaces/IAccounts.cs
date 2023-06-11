@@ -28,9 +28,23 @@ namespace GitMine.GitInterface.Interfaces
         /// <param name="passwordHash">Password hash.</param>
         void CreateAccount(Account account, string passwordHash);
         
-        void UpdateAccount(Account account);
+        /// <summary>
+        /// Updates an account's details against given ID.
+        /// </summary>
+        /// <param name="accountId">ID for the account that needs to be updated.</param>
+        /// <param name="account">Updated details.</param>
+        void UpdateAccount(string accountId, Account account);
+        /// <summary>
+        /// Updates an account's password.
+        /// </summary>
+        /// <param name="accountId">ID of the account.</param>
+        /// <param name="passwordHash">Updated password hash.</param>
         void UpdateAccountPassword(string accountId, string passwordHash);
         
+        /// <summary>
+        /// Deletes an account and its associated data.
+        /// </summary>
+        /// <param name="accountId">ID of the account to be deleted.</param>
         void DeleteAccount(string accountId);
     }
 }
