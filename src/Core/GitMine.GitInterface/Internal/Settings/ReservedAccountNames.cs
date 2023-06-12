@@ -16,7 +16,9 @@
 
             //- OSes
             "azurertos", "azure-rtos", "az-rtos", "azrtos",
-            "linux", "debian", "ubuntu", "redhat", "oracle-linux",
+            "linux",
+            "debian", "ubuntu", "redhat", "oraclelinux", "oracle-linux", "oracle.linux",
+            "fedora", "centos",
             "raspbian",
             "windows", "win",
             "winserver", "win-server", "win.server",
