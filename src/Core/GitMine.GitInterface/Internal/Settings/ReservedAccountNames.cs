@@ -45,6 +45,7 @@
             "win-7", "win-8", "win-8.1", "win-10", "win-11", "win-12",
             "windows7", "windows8", "windows8.1", "windows10", "windows11", "windows12",
             "windows-7", "windows-8", "windows-8.1", "windows-10", "windows-11", "windows-12",
+            "mac", "macos", "mac-os", "mac.os",
             
             //- Technologies - Software
             "photoshop",
@@ -54,6 +55,7 @@
             //- Technologies - Dev
             "android", "angular", "angularjs", "angular-js", "angular.js",
             "dreamweaver",
+            "iphone",
             
             "javavm", "java-vm", "java.vm", "jvm",
             
