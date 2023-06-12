@@ -36,8 +36,13 @@
             "windows7", "windows8", "windows8.1", "windows10", "windows11", "windows12",
             "windows-7", "windows-8", "windows-8.1", "windows-10", "windows-11", "windows-12",
             
-            //- Technologies
-            "angular", "angularjs", "angular-js", "angular.js",
+            //- Technologies - Software
+            "photoshop",
+            "wechat", "whatsapp",
+            "zoom",
+
+            //- Technologies - Dev
+            "android", "angular", "angularjs", "angular-js", "angular.js",
             "dreamweaver",
             
             "javavm", "java-vm", "java.vm", "jvm",
