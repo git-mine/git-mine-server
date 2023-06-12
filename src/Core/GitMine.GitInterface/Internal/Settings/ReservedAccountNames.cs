@@ -9,10 +9,18 @@
             "gitignore", "gitattribute", "gitattributes",
 
             //- Companies
-            "cronblocks", "innolixir", "ubrant", "gooan",
-            "github",
-            "oracle", "microsoft", "google", "mathworks",
-            "twitter", "facebook", "meta", "youtube",
+            "adobe", "alibaba", "apple",
+            "cronblocks",
+            "facebook",
+            "github", "gooan", "google",
+            "huawei",
+            "innolixir",
+            "mathworks", "meta", "microsoft",
+            "oracle",
+            "tencent", "twitter",
+            "ubrant", "udemy",
+            "xiaomi",
+            "youtube",
 
             //- OSes
             "azurertos", "azure-rtos", "az-rtos", "azrtos",
@@ -30,6 +38,7 @@
             
             //- Technologies
             "angular", "angularjs", "angular-js", "angular.js",
+            "dreamweaver",
             
             "javavm", "java-vm", "java.vm", "jvm",
             
