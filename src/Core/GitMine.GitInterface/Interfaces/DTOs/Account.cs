@@ -26,6 +26,14 @@ namespace GitMine.GitInterface.Interfaces.DTOs
         /// </summary>
         public AccountType Type { get; }
 
+        /// <summary>
+        /// Creates a readonly object for account description.
+        /// </summary>
+        /// <param name="id">System assigned, unique, unchangeable ID for the account.</param>
+        /// <param name="uniqueName">Unique name for the account.</param>
+        /// <param name="displayName">User's profile name.</param>
+        /// <param name="description">User's provided description for profile information.</param>
+        /// <param name="accountType">Account's type.</param>
         public Account(
             string id,
             string uniqueName,
