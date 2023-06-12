@@ -11,7 +11,7 @@
             //- Companies
             "cronblocks", "innolixir", "ubrant", "gooan",
             "github",
-            "oracle", "microsoft", "google",
+            "oracle", "microsoft", "google", "mathworks",
             "twitter", "facebook", "meta", "youtube",
 
             //- OSes
@@ -27,15 +27,26 @@
             //- Technologies
             "java", "javavm", "jvm",
             "dotnet", "dotnetcore",
+            "matlab",
+            "node", "nodejs",
+            "qt",
+            "wix",
 
             //- Programming and markup languages
             "c", "c++", "cplusplus", "c_plusplus", "c_plus_plus",
             "csharp", "c#", "css",
             "fsharp", "f#",
+            "go", "golang",
             "html",
             "java", "javascript",
+            "kotlin",
+            "lua",
+            "python",
+            "r",
             "shtml",
-            "python"
+            "uml",
+            "xml", "xhtml",
+            "yml", "yaml",
         };
     }
 }
