@@ -19,6 +19,8 @@
             "linux", "debian", "ubuntu", "redhat", "oracle-linux",
             "raspbian",
             "windows", "win",
+            "winserver", "win-server", "win.server",
+            "windowsserver", "windows-server", "windows.server",
             "win7", "win8", "win8.1", "win10", "win11", "win12",
             "win-7", "win-8", "win-8.1", "win-10", "win-11", "win-12",
             "windows7", "windows8", "windows8.1", "windows10", "windows11", "windows12",
