@@ -25,12 +25,18 @@
             "windows-7", "windows-8", "windows-8.1", "windows-10", "windows-11", "windows-12",
             
             //- Technologies
-            "java", "javavm", "jvm",
-            "dotnet", "dotnetcore",
+            "angular", "angularjs", "angular-js", "angular.js",
+            
+            "javavm", "java-vm", "java.vm", "jvm",
+            
+            "dotnet", ".net",
+            "dotnetcore", "dotnet-core", "dotnet.core",
+            ".netcore", ".net-core", ".net.core",
+
             "matlab",
-            "node", "nodejs",
+            "node", "nodejs", "node-js", "node.js",
             "qt",
-            "wix",
+            "wix", "wsl",
 
             //- Programming and markup languages
             "c", "c++", "cplusplus", "c_plusplus", "c_plus_plus",
