@@ -1,6 +1,6 @@
 ﻿namespace GitMine.GitInterface.Internal.Settings
 {
-    internal class GlobalSettings
+    internal partial class GlobalSettings
     {
         public static readonly string[] ReservedAccountNames =
         {
